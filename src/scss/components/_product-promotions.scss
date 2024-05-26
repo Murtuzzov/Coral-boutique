@@ -1,12 +1,49 @@
 .product-promotions {
-  background-color: aqua;
+  background-color: rgba(30, 40, 50, 0.05);
+  margin: 0 auto;
+  width: 1920px;
+  font-family: "Roboto";
+}
+
+.follow-gallery {
   margin: 0 auto;
   width: 1320px;
-  font-family: "Roboto";
+}
+.follow-gallery__title {
+  font-weight: 500;
+}
+
+.newsletter {
+  margin: 0 auto;
+  width: 1320px;
+}
+.newsletter__title {
+  font-weight: 500;
+}
+
+.newsletter-form__input {
+  width: 642px;
+  height: 32px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+.newsletter-form__input:focus {
+  outline: none;
+}
+
+.newsletter-form__btn {
+  width: 92px;
+  height: 32px;
 }
 
 @for $i from 6 through 10 {
   .gap-#{$i} {
     gap: #{0.5 * $i}rem;
+  }
+}
+
+@for $i from 6 through 10 {
+  .mb-#{$i} {
+    margin-bottom: #{0.5 * $i}rem;
   }
 }
