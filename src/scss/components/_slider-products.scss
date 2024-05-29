@@ -1,0 +1,16 @@
+.section-slider {
+  max-width: 1320px;
+  text-align: center;
+  margin: 140px 300px;
+}
+.style-fonts {
+  @include fonts-style(#7f7f7f, 600);
+}
+.section-title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 58px;
+}
+.section-top__products {
+  padding: 35px 0;
+}
