@@ -1,0 +1,27 @@
+.brand-banner {
+  margin-top: 140px;
+}
+.brand-banner__img {
+  position: relative;
+}
+.brand-banner__img-inner {
+  position: absolute;
+  transform: translateX(184%);
+  top: 206px;
+  z-index: 3;
+}
+.brand-banner__content {
+  position: absolute;
+  transform: translateX(230%);
+  bottom: 300px;
+}
+.brand-banner__subtitle {
+  margin: 54px 0;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.brand-banner__btn {
+  padding: 19px 26px;
+  font-size: 30px;
+  line-height: 34px;
+}

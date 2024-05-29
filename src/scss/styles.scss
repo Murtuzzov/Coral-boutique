@@ -3,3 +3,10 @@
 @import "./base/fonts";
 @import "./abstractions/mixins";
 @import "./abstractions/placeholders";
+@import "./components/brand-banner";
+@import "./components/slider-products";
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
