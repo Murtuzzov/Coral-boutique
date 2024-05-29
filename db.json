@@ -5,594 +5,363 @@
       "name": "Gold Hoop Earrings",
       "type": "Jewelry & Accessories",
       "price": 49.99,
-      "photo": "https://example.com/gold_hoop_earrings.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 2,
       "name": "Silver Pendant Necklace",
       "type": "Jewelry & Accessories",
       "price": 39.99,
-      "photo": "https://example.com/silver_pendant_necklace.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 3,
       "name": "Leather Crossbody Bag",
       "type": "Clothes & Shoes",
       "price": 89.99,
-      "photo": "https://example.com/leather_crossbody_bag.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 4,
       "name": "Cotton Crewneck T-shirt",
       "type": "T-shirts",
       "price": 29.99,
-      "photo": "https://example.com/cotton_crewneck_tshirt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 5,
       "name": "Wool Blend Hoodie",
       "type": "Hoodies",
       "price": 59.99,
-      "photo": "https://example.com/wool_blend_hoodie.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 6,
       "name": "Canvas Backpack",
       "type": "Bags",
       "price": 79.99,
-      "photo": "https://example.com/canvas_backpack.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 7,
       "name": "Ceramic Coffee Mug",
       "type": "Home & Living",
       "price": 14.99,
-      "photo": "https://example.com/ceramic_coffee_mug.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 8,
       "name": "Wedding Invitation Set",
       "type": "Wedding & Party",
       "price": 99.99,
-      "photo": "https://example.com/wedding_invitation_set.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 9,
       "name": "Wooden Train Set",
       "type": "Toys & Entertainment",
       "price": 34.99,
-      "photo": "https://example.com/wooden_train_set.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 10,
       "name": "Oil Painting on Canvas",
       "type": "Art & Collectibles",
       "price": 149.99,
-      "photo": "https://example.com/oil_painting_on_canvas.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 11,
       "name": "Pearl Stud Earrings",
       "type": "Jewelry & Accessories",
       "price": 29.99,
-      "photo": "https://example.com/pearl_stud_earrings.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 12,
       "name": "Leather Wallet",
       "type": "Jewelry & Accessories",
       "price": 69.99,
-      "photo": "https://example.com/leather_wallet.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 13,
       "name": "Striped Cotton Shirt",
       "type": "Clothes & Shoes",
       "price": 49.99,
-      "photo": "https://example.com/striped_cotton_shirt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 14,
       "name": "Denim Jacket",
       "type": "Jackets",
       "price": 79.99,
-      "photo": "https://example.com/denim_jacket.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 15,
       "name": "Printed T-shirt",
       "type": "T-shirts",
       "price": 19.99,
-      "photo": "https://example.com/printed_tshirt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 16,
       "name": "Fleece Hoodie",
       "type": "Hoodies",
       "price": 49.99,
-      "photo": "https://example.com/fleece_hoodie.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 17,
       "name": "Leather Briefcase",
       "type": "Bags",
       "price": 129.99,
-      "photo": "https://example.com/leather_briefcase.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 18,
       "name": "Porcelain Teapot",
       "type": "Home & Living",
       "price": 29.99,
-      "photo": "https://example.com/porcelain_teapot.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 19,
       "name": "Birthday Party Balloons",
       "type": "Wedding & Party",
       "price": 9.99,
-      "photo": "https://example.com/party_balloons.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 20,
       "name": "Remote Control Car",
       "type": "Toys & Entertainment",
       "price": 49.99,
-      "photo": "https://example.com/remote_control_car.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 21,
       "name": "Vintage Vinyl Record",
       "type": "Art & Collectibles",
       "price": 39.99,
-      "photo": "https://example.com/vintage_vinyl_record.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 22,
       "name": "Diamond Stud Earrings",
       "type": "Jewelry & Accessories",
       "price": 149.99,
-      "photo": "https://example.com/diamond_stud_earrings.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 23,
       "name": "Leather Loafers",
       "type": "Clothes & Shoes",
       "price": 99.99,
-      "photo": "https://example.com/leather_loafers.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 24,
       "name": "Graphic Print T-shirt",
       "type": "T-shirts",
       "price": 24.99,
-      "photo": "https://example.com/graphic_print_tshirt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 25,
       "name": "Zip-up Hoodie",
       "type": "Hoodies",
       "price": 54.99,
-      "photo": "https://example.com/zipup_hoodie.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 26,
       "name": "Leather Satchel",
       "type": "Bags",
       "price": 109.99,
-      "photo": "https://example.com/leather_satchel.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 27,
       "name": "Decorative Throw Pillow",
       "type": "Home & Living",
-      "photo": "https://example.com/decorative_throw_pillow.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 28,
       "name": "Bridal Veil",
       "type": "Wedding & Party",
       "price": 79.99,
-      "photo": "https://example.com/bridal_veil.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 29,
       "name": "Building Blocks Set",
       "type": "Toys & Entertainment",
       "price": 39.99,
-      "photo": "https://example.com/building_blocks_set.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 30,
       "name": "Vintage Postcard Collection",
       "type": "Art & Collectibles",
       "price": 29.99,
-      "photo": "https://example.com/vintage_postcards.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 31,
       "name": "Emerald Bracelet",
       "type": "Jewelry & Accessories",
       "price": 199.99,
-      "photo": "https://example.com/emerald_bracelet.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 32,
       "name": "Leather Belt",
       "type": "Jewelry & Accessories",
       "price": 49.99,
-      "photo": "https://example.com/leather_belt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 33,
       "name": "Cashmere Sweater",
       "type": "Clothes & Shoes",
       "price": 149.99,
-      "photo": "https://example.com/cashmere_sweater.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 34,
       "name": "Biker Jacket",
       "type": "Jackets",
       "price": 119.99,
-      "photo": "https://example.com/biker_jacket.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 35,
       "name": "Striped Polo Shirt",
       "type": "T-shirts",
       "price": 34.99,
-      "photo": "https://example.com/striped_polo_shirt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 36,
       "name": "Pullover Sweatshirt",
       "type": "Hoodies",
       "price": 44.99,
-      "photo": "https://example.com/pullover_sweatshirt.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 37,
       "name": "Leather Duffle Bag",
       "type": "Bags",
       "price": 169.99,
-      "photo": "https://example.com/leather_duffle_bag.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 38,
       "name": "Decorative Wall Clock",
       "type": "Home & Living",
       "price": 29.99,
-      "photo": "https://example.com/decorative_wall_clock.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 39,
       "name": "Champagne Glasses Set",
       "type": "Wedding & Party",
       "price": 49.99,
-      "photo": "https://example.com/champagne_glasses_set.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 40,
       "name": "RC Drone",
       "type": "Toys & Entertainment",
       "price": 99.99,
-      "photo": "https://example.com/rc_drone.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 41,
       "name": "Vintage Film Camera",
       "type": "Art & Collectibles",
       "price": 89.99,
-      "photo": "https://example.com/vintage_film_camera.jpg"
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 42,
       "name": "Diamond Tennis Bracelet",
       "type": "Jewelry & Accessories",
-      "price": 499.99,
-      "photo": "https://example.com/diamond_tennis_bracelet.jpg"
+      "price": 299.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 43,
-      "name": "Leather Boots",
-      "type": "Clothes & Shoes",
-      "price": 129.99,
-      "photo": "https://example.com/leather_boots.jpg"
+      "name": "Silk Scarf",
+      "type": "Jewelry & Accessories",
+      "price": 59.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 44,
-      "name": "V-Neck T-shirt",
-      "type": "T-shirts",
-      "price": 22.99,
-      "photo": "https://example.com/vneck_tshirt.jpg"
+      "name": "Running Shoes",
+      "type": "Clothes & Shoes",
+      "price": 89.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 45,
-      "name": "Zip Hoodie",
-      "type": "Hoodies",
-      "price": 59.99,
-      "photo": "https://example.com/zip_hoodie.jpg"
+      "name": "Windbreaker Jacket",
+      "type": "Jackets",
+      "price": 69.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 46,
-      "name": "Leather Messenger Bag",
-      "type": "Bags",
-      "price": 119.99,
-      "photo": "https://example.com/leather_messenger_bag.jpg"
+      "name": "Long Sleeve T-shirt",
+      "type": "T-shirts",
+      "price": 24.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 47,
-      "name": "Stainless Steel Cookware Set",
-      "type": "Home & Living",
-      "price": 99.99,
-      "photo": "https://example.com/cookware_set.jpg"
+      "name": "Zip Hoodie",
+      "type": "Hoodies",
+      "price": 64.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 48,
-      "name": "Party Hats Set",
-      "type": "Wedding & Party",
-      "price": 14.99,
-      "photo": "https://example.com/party_hats_set.jpg"
+      "name": "Nylon Backpack",
+      "type": "Bags",
+      "price": 59.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 49,
-      "name": "Remote Control Helicopter",
-      "type": "Toys & Entertainment",
-      "price": 79.99,
-      "photo": "https://example.com/rc_helicopter.jpg"
+      "name": "Wool Throw Blanket",
+      "type": "Home & Living",
+      "price": 99.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 50,
-      "name": "Antique Book Collection",
-      "type": "Art & Collectibles",
-      "price": 199.99,
-      "photo": "https://example.com/antique_books.jpg"
+      "name": "Wedding Ring Set",
+      "type": "Wedding & Party",
+      "price": 499.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 51,
-      "name": "Rose Gold Bracelet",
-      "type": "Jewelry & Accessories",
-      "price": 89.99,
-      "photo": "https://example.com/rose_gold_bracelet.jpg"
+      "name": "Puzzle Game",
+      "type": "Toys & Entertainment",
+      "price": 19.99,
+      "photo": "./images/t-shirt.jpg"
     },
     {
       "id": 52,
-      "name": "Leather Keychain",
-      "type": "Jewelry & Accessories",
-      "price": 19.99,
-      "photo": "https://example.com/leather_keychain.jpg"
-    },
-    {
-      "id": 53,
-      "name": "Silk Scarf",
-      "type": "Clothes & Shoes",
-      "price": 59.99,
-      "photo": "https://example.com/silk_scarf.jpg"
-    },
-    {
-      "id": 54,
-      "name": "Bomber Jacket",
-      "type": "Jackets",
-      "price": 89.99,
-      "photo": "https://example.com/bomber_jacket.jpg"
-    },
-    {
-      "id": 55,
-      "name": "Graphic Hoodie",
-      "type": "Hoodies",
-      "price": 39.99,
-      "photo": "https://example.com/graphic_hoodie.jpg"
-    },
-    {
-      "id": 56,
-      "name": "Leather Tote Bag",
-      "type": "Bags",
-      "price": 139.99,
-      "photo": "https://example.com/leather_tote_bag.jpg"
-    },
-    {
-      "id": 57,
-      "name": "Throw Blanket",
-      "type": "Home & Living",
-      "price": 24.99,
-      "photo": "https://example.com/throw_blanket.jpg"
-    },
-    {
-      "id": 58,
-      "name": "Wedding Cake Topper",
-      "type": "Wedding & Party",
-      "price": 19.99,
-      "photo": "https://example.com/cake_topper.jpg"
-    },
-    {
-      "id": 59,
-      "name": "Wooden Puzzle Set",
-      "type": "Toys & Entertainment",
-      "price": 29.99,
-      "photo": "https://example.com/wooden_puzzle_set.jpg"
-    },
-    {
-      "id": 60,
-      "name": "Vintage Posters Set",
+      "name": "Abstract Sculpture",
       "type": "Art & Collectibles",
-      "price": 49.99,
-      "photo": "https://example.com/vintage_posters_set.jpg"
-    },
-    {
-      "id": 61,
-      "name": "Sapphire Stud Earrings",
-      "type": "Jewelry & Accessories",
-      "price": 179.99,
-      "photo": "https://example.com/sapphire_stud_earrings.jpg"
-    },
-    {
-      "id": 62,
-      "name": "Leather Gloves",
-      "type": "Clothes & Shoes",
-      "price": 49.99,
-      "photo": "https://example.com/leather_gloves.jpg"
-    },
-    {
-      "id": 63,
-      "name": "V-neck Sweater",
-      "type": "Jackets",
-      "price": 69.99,
-      "photo": "https://example.com/vneck_sweater.jpg"
-    },
-    {
-      "id": 64,
-      "name": "Patterned Hoodie",
-      "type": "Hoodies",
-      "price": 34.99,
-      "photo": "https://example.com/patterned_hoodie.jpg"
-    },
-    {
-      "id": 65,
-      "name": "Leather Crossbody Purse",
-      "type": "Bags",
-      "price": 109.99,
-      "photo": "https://example.com/leather_crossbody_purse.jpg"
-    },
-    {
-      "id": 66,
-      "name": "Candle Holder Set",
-      "type": "Home & Living",
-      "price": 29.99,
-      "photo": "https://example.com/candle_holder_set.jpg"
-    },
-    {
-      "id": 67,
-      "name": "Bridal Garter",
-      "type": "Wedding & Party",
-      "price": 9.99,
-      "photo": "https://example.com/bridal_garter.jpg"
-    },
-    {
-      "id": 68,
-      "name": "RC Race Car",
-      "type": "Toys & Entertainment",
-      "price": 69.99,
-      "photo": "https://example.com/rc_race_car.jpg"
-    },
-    {
-      "id": 69,
-      "name": "Vintage Vinyl Player",
-      "type": "Art & Collectibles",
-      "price": 249.99,
-      "photo": "https://example.com/vintage_vinyl_player.jpg"
-    },
-    {
-      "id": 70,
-      "name": "Ruby Pendant Necklace",
-      "type": "Jewelry & Accessories",
-      "price": 149.99,
-      "photo": "https://example.com/ruby_pendant_necklace.jpg"
-    },
-    {
-      "id": 71,
-      "name": "Leather Jacket",
-      "type": "Clothes & Shoes",
-      "price": 199.99,
-      "photo": "https://example.com/leather_jacket.jpg"
-    },
-    {
-      "id": 72,
-      "name": "Quilted Vest",
-      "type": "Jackets",
-      "price": 49.99,
-      "photo": "https://example.com/quilted_vest.jpg"
-    },
-    {
-      "id": 73,
-      "name": "Striped Hoodie",
-      "type": "Hoodies",
-      "price": 29.99,
-      "photo": "https://example.com/striped_hoodie.jpg"
-    },
-    {
-      "id": 74,
-      "name": "Leather Clutch",
-      "type": "Bags",
-      "price": 89.99,
-      "photo": "https://example.com/leather_clutch.jpg"
-    },
-    {
-      "id": 75,
-      "name": "Aromatherapy Diffuser",
-      "type": "Home & Living",
-      "price": 39.99,
-      "photo": "https://example.com/aromatherapy_diffuser.jpg"
-    },
-    {
-      "id": 76,
-      "name": "Acrylic Paint Set",
-      "type": "Craft Supplies & Tools",
-      "price": 24.99,
-      "photo": "https://example.com/acrylic_paint_set.jpg"
-    },
-    {
-      "id": 77,
-      "name": "Knitting Needles Set",
-      "type": "Craft Supplies & Tools",
-      "price": 14.99,
-      "photo": "https://example.com/knitting_needles_set.jpg"
-    },
-    {
-      "id": 78,
-      "name": "Embroidery Kit",
-      "type": "Craft Supplies & Tools",
-      "price": 19.99,
-      "photo": "https://example.com/embroidery_kit.jpg"
-    },
-    {
-      "id": 79,
-      "name": "Scrapbooking Paper Pack",
-      "type": "Craft Supplies & Tools",
-      "price": 9.99,
-      "photo": "https://example.com/scrapbooking_paper_pack.jpg"
-    },
-    {
-      "id": 80,
-      "name": "Wood Carving Set",
-      "type": "Craft Supplies & Tools",
-      "price": 29.99,
-      "photo": "https://example.com/wood_carving_set.jpg"
-    },
-    {
-      "id": 81,
-      "name": "Sewing Machine",
-      "type": "Craft Supplies & Tools",
-      "price": 199.99,
-      "photo": "https://example.com/sewing_machine.jpg"
-    },
-    {
-      "id": 82,
-      "name": "Calligraphy Pen Set",
-      "type": "Craft Supplies & Tools",
-      "price": 34.99,
-      "photo": "https://example.com/calligraphy_pen_set.jpg"
-    },
-    {
-      "id": 83,
-      "name": "Ceramic Pottery Wheel",
-      "type": "Craft Supplies & Tools",
-      "price": 299.99,
-      "photo": "https://example.com/ceramic_pottery_wheel.jpg"
-    },
-    {
-      "id": 84,
-      "name": "Quilting Ruler Set",
-      "type": "Craft Supplies & Tools",
-      "price": 19.99,
-      "photo": "https://example.com/quilting_ruler_set.jpg"
-    },
-    {
-      "id": 85,
-      "name": "Jewelry Making Kit",
-      "type": "Craft Supplies & Tools",
-      "price": 39.99,
-      "photo": "https://example.com/jewelry_making_kit.jpg"
+      "price": 129.99,
+      "photo": "./images/t-shirt.jpg"
     }
   ],
 
@@ -602,70 +371,70 @@
       "name": "Striped Cotton Shirt",
       "type": "Clothes & Shoes",
       "price": 49.99,
-      "photo": "https://example.com/striped_cotton_shirt.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 15,
       "name": "Printed T-shirt",
       "type": "T-shirts",
       "price": 19.99,
-      "photo": "https://example.com/printed_tshirt.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 21,
       "name": "Vintage Vinyl Record",
       "type": "Art & Collectibles",
       "price": 39.99,
-      "photo": "https://example.com/vintage_vinyl_record.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 24,
       "name": "Graphic Print T-shirt",
       "type": "T-shirts",
       "price": 24.99,
-      "photo": "https://example.com/graphic_print_tshirt.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 28,
       "name": "Bridal Veil",
       "type": "Wedding & Party",
       "price": 79.99,
-      "photo": "https://example.com/bridal_veil.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 34,
       "name": "Biker Jacket",
       "type": "Jackets",
       "price": 119.99,
-      "photo": "https://example.com/biker_jacket.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 42,
       "name": "Diamond Tennis Bracelet",
       "type": "Jewelry & Accessories",
       "price": 499.99,
-      "photo": "https://example.com/diamond_tennis_bracelet.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 45,
       "name": "Zip Hoodie",
       "type": "Hoodies",
       "price": 59.99,
-      "photo": "https://example.com/zip_hoodie.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 49,
       "name": "Remote Control Helicopter",
       "type": "Toys & Entertainment",
       "price": 79.99,
-      "photo": "https://example.com/rc_helicopter.jpg"
+      "photo": "./images/bestseller.jpg"
     },
     {
       "id": 55,
       "name": "Graphic Hoodie",
       "type": "Hoodies",
       "price": 39.99,
-      "photo": "https://example.com/graphic_hoodie.jpg"
+      "photo": "./images/bestseller.jpg"
     }
   ]
 }

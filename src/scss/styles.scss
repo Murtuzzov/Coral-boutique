@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "./base/normalizer";
 @import "./base/fonts";
 @import "./abstractions/mixins";
 @import "./abstractions/placeholders";
+@import "./components/product-promotions";
+@import "./components/header";
+
