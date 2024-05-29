@@ -5,363 +5,91 @@
       "name": "Gold Hoop Earrings",
       "type": "Jewelry & Accessories",
       "price": 49.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Silver Pendant Necklace",
-      "type": "Jewelry & Accessories",
-      "price": 39.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Leather Crossbody Bag",
-      "type": "Clothes & Shoes",
-      "price": 89.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 4,
       "name": "Cotton Crewneck T-shirt",
       "type": "T-shirts",
       "price": 29.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Wool Blend Hoodie",
-      "type": "Hoodies",
-      "price": 59.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 6,
       "name": "Canvas Backpack",
       "type": "Bags",
       "price": 79.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Ceramic Coffee Mug",
-      "type": "Home & Living",
-      "price": 14.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Wedding Invitation Set",
-      "type": "Wedding & Party",
-      "price": 99.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 9,
       "name": "Wooden Train Set",
       "type": "Toys & Entertainment",
       "price": 34.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Oil Painting on Canvas",
-      "type": "Art & Collectibles",
-      "price": 149.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 11,
       "name": "Pearl Stud Earrings",
       "type": "Jewelry & Accessories",
       "price": 29.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Leather Wallet",
-      "type": "Jewelry & Accessories",
-      "price": 69.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Striped Cotton Shirt",
-      "type": "Clothes & Shoes",
-      "price": 49.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 14,
       "name": "Denim Jacket",
       "type": "Jackets",
       "price": 79.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Printed T-shirt",
-      "type": "T-shirts",
-      "price": 19.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Fleece Hoodie",
-      "type": "Hoodies",
-      "price": 49.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Leather Briefcase",
-      "type": "Bags",
-      "price": 129.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 18,
       "name": "Porcelain Teapot",
       "type": "Home & Living",
       "price": 29.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 19,
-      "name": "Birthday Party Balloons",
-      "type": "Wedding & Party",
-      "price": 9.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 20,
-      "name": "Remote Control Car",
-      "type": "Toys & Entertainment",
-      "price": 49.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 21,
       "name": "Vintage Vinyl Record",
       "type": "Art & Collectibles",
       "price": 39.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 22,
-      "name": "Diamond Stud Earrings",
-      "type": "Jewelry & Accessories",
-      "price": 149.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 23,
-      "name": "Leather Loafers",
-      "type": "Clothes & Shoes",
-      "price": 99.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 24,
       "name": "Graphic Print T-shirt",
       "type": "T-shirts",
       "price": 24.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 25,
-      "name": "Zip-up Hoodie",
-      "type": "Hoodies",
-      "price": 54.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 26,
-      "name": "Leather Satchel",
-      "type": "Bags",
-      "price": 109.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Decorative Throw Pillow",
-      "type": "Home & Living",
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 28,
-      "name": "Bridal Veil",
-      "type": "Wedding & Party",
-      "price": 79.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 29,
-      "name": "Building Blocks Set",
-      "type": "Toys & Entertainment",
-      "price": 39.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 30,
-      "name": "Vintage Postcard Collection",
-      "type": "Art & Collectibles",
-      "price": 29.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 31,
       "name": "Emerald Bracelet",
       "type": "Jewelry & Accessories",
       "price": 199.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 32,
-      "name": "Leather Belt",
-      "type": "Jewelry & Accessories",
-      "price": 49.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 33,
-      "name": "Cashmere Sweater",
-      "type": "Clothes & Shoes",
-      "price": 149.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 34,
       "name": "Biker Jacket",
       "type": "Jackets",
       "price": 119.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 35,
-      "name": "Striped Polo Shirt",
-      "type": "T-shirts",
-      "price": 34.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 36,
-      "name": "Pullover Sweatshirt",
-      "type": "Hoodies",
-      "price": 44.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 37,
-      "name": "Leather Duffle Bag",
-      "type": "Bags",
-      "price": 169.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 38,
-      "name": "Decorative Wall Clock",
-      "type": "Home & Living",
-      "price": 29.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 39,
-      "name": "Champagne Glasses Set",
-      "type": "Wedding & Party",
-      "price": 49.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 40,
       "name": "RC Drone",
       "type": "Toys & Entertainment",
       "price": 99.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 41,
-      "name": "Vintage Film Camera",
-      "type": "Art & Collectibles",
-      "price": 89.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 42,
-      "name": "Diamond Tennis Bracelet",
-      "type": "Jewelry & Accessories",
-      "price": 299.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 43,
-      "name": "Silk Scarf",
-      "type": "Jewelry & Accessories",
-      "price": 59.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     },
     {
       "id": 44,
       "name": "Running Shoes",
       "type": "Clothes & Shoes",
       "price": 89.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 45,
-      "name": "Windbreaker Jacket",
-      "type": "Jackets",
-      "price": 69.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 46,
-      "name": "Long Sleeve T-shirt",
-      "type": "T-shirts",
-      "price": 24.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 47,
-      "name": "Zip Hoodie",
-      "type": "Hoodies",
-      "price": 64.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 48,
-      "name": "Nylon Backpack",
-      "type": "Bags",
-      "price": 59.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 49,
-      "name": "Wool Throw Blanket",
-      "type": "Home & Living",
-      "price": 99.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 50,
-      "name": "Wedding Ring Set",
-      "type": "Wedding & Party",
-      "price": 499.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 51,
-      "name": "Puzzle Game",
-      "type": "Toys & Entertainment",
-      "price": 19.99,
-      "photo": "./images/t-shirt.jpg"
-    },
-    {
-      "id": 52,
-      "name": "Abstract Sculpture",
-      "type": "Art & Collectibles",
-      "price": 129.99,
-      "photo": "./images/t-shirt.jpg"
+      "photo": "https://www.aazbd.com/wp-content/uploads/2023/08/SOLID-BLACK-scaled.jpg"
     }
   ],
 
@@ -371,70 +99,72 @@
       "name": "Striped Cotton Shirt",
       "type": "Clothes & Shoes",
       "price": 49.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 15,
       "name": "Printed T-shirt",
       "type": "T-shirts",
       "price": 19.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 21,
       "name": "Vintage Vinyl Record",
       "type": "Art & Collectibles",
       "price": 39.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
-    {
+        {
       "id": 24,
       "name": "Graphic Print T-shirt",
       "type": "T-shirts",
       "price": 24.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 28,
       "name": "Bridal Veil",
       "type": "Wedding & Party",
       "price": 79.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 34,
       "name": "Biker Jacket",
       "type": "Jackets",
       "price": 119.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 42,
       "name": "Diamond Tennis Bracelet",
       "type": "Jewelry & Accessories",
       "price": 499.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 45,
       "name": "Zip Hoodie",
       "type": "Hoodies",
       "price": 59.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 49,
       "name": "Remote Control Helicopter",
       "type": "Toys & Entertainment",
       "price": 79.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
     {
       "id": 55,
       "name": "Graphic Hoodie",
       "type": "Hoodies",
       "price": 39.99,
-      "photo": "./images/bestseller.jpg"
+      "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     }
   ]
 }
+
+     
