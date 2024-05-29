@@ -1,82 +1,83 @@
-header{
-    background-color: #E3E3E3;
-    width: 1920px;
+header {
+  background-color: #e3e3e3;
+  width: 1920px;
 }
-.header-icon{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #1E2832;
-    text-decoration: none;
+.header-icon {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1e2832;
+  text-decoration: none;
 }
 .nav-link-color a {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
-    transition: all .4s ease-in;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  transition: all 0.4s ease-in;
 }
-.nav-link-color a:hover{
-    text-decoration: underline;
-    color: red !important;
+.nav-link-color a:hover {
+  text-decoration: underline;
+  color: red !important;
 }
-.header-navbar{
-    background-color: #E3E3E3 !important;
+.header-navbar {
+  background-color: #e3e3e3 !important;
 }
 
-.border-bott{
-    border-bottom: .1px solid rgba(50, 50, 50, .2);
+.border-bott {
+  border-bottom: 0.1px solid rgba(50, 50, 50, 0.2);
 }
-.section-collection{
-    width: 1320px;
-    margin: 0 auto;
-    position: relative;
-    
+.section-collection {
+  width: 1320px;
+  margin: 0 auto;
+  position: relative;
 }
-.section-collection-left{
-    width: 660px;
-   
-    
+.section-collection-left {
+  width: 660px;
 }
-.section-collection-right{
-    width: 660px;
-    
-    
+.section-collection-right {
+  width: 660px;
 }
-.collection{
-    font-weight: 300;
-    font-size:55px;
-    line-height: 55px;
-    font-family: 'Roboto';
-    color: #000000;
-    letter-spacing: .2px;
+.collection {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 55px;
+  font-family: "Roboto";
+  color: #000000;
+  letter-spacing: 0.2px;
 }
-.header-discription{
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 55px;
-    color: #000000;
+.header-discription {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 55px;
+  color: #000000;
 }
-.btn-shop{
-  padding:  14px 26px 14px 26px ;
-  background-color: #1E2832;
+.btn-shop {
+  padding: 14px 26px 14px 26px;
+  background-color: #1e2832;
 }
-.shop-link{
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 33px;
-    color: #FFFFFF;
-    text-decoration: none;
+.shop-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  color: #ffffff;
+  text-decoration: none;
 }
-.img-left{
-    position: absolute;
-    top: 270px;
-    left: -300px;
+.img-left {
+  position: absolute;
+  top: 270px;
+  left: -300px;
 }
-.img-right{
-    position: absolute;
-    top: 200px;
-    left: 1430px;
+.img-right {
+  position: absolute;
+  top: 200px;
+  left: 1430px;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: aqua;
 }
