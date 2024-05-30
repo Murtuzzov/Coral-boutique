@@ -9,10 +9,12 @@ footer {
   justify-content: space-around;
   margin: 0 auto;
   width: 1320px;
+  margin-bottom: 90px;
 }
 
 .footer-box__title {
   position: relative;
+  padding-left: 34px;
 }
 
 .footer-box__title::before {
@@ -21,7 +23,7 @@ footer {
   width: 31px;
   height: 15px;
   top: 12px;
-  left: -36px;
+  left: -2px;
   top: 50%;
   transform: translateY(-50%);
   background-image: url("../images/before-after.png");
@@ -47,4 +49,12 @@ footer {
 .social-networks__item {
   width: 25px;
   height: 25px;
+}
+
+.bottom-footer {
+  width: 1920px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px;
+  background-color: rgb(30, 40, 50);
 }
