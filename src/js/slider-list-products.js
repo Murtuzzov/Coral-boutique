@@ -11,12 +11,18 @@ export const productsFunc = async () => {
       sliderListItem.classList.add("slider-list__item");
       sliderListItem.innerHTML = `
         <div class="slider-list__item-inner">
-          <div>
-          <img class="slider-list__items-img" src="${product.photo}" alt="Products" width="200" height="200" />
-          <p class="slider-list__items-name">${product.name}</p>
-          <p class="slider-list__items-type">${product.type}</p>
-          </div>
-          <p class="slider-list__items-price">${product.price}</p>
+        <div class="slider-list__products-add-cart">
+        <img 
+          src="./images/slider-products/icons-heart.png"
+          alt="HEART" width="24" height="24"
+        />
+      </div>
+        <img class="slider-list__items-img" src="${product.photo}" alt="Products" width="312" height="400" />
+        <p class="slider-list__items-name">${product.name}</p>
+        <div class="slider-list__products-info">
+            <p class="slider-list__items-type">${product.type}</p>
+            <p class="slider-list__items-price">${product.price}</p>
+        </div>
         </div>
       `;
       sliderListProducts.appendChild(sliderListItem);
