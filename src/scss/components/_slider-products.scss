@@ -14,3 +14,55 @@
 .section-top__products {
   padding: 35px 0;
 }
+.slider-list__products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+}
+.slider-list__item {
+  list-style: none;
+}
+.slider-list__item-inner {
+  text-align: start;
+}
+.slider-list__products-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-list__items-name {
+  @include fonts-style(#000, 600);
+  padding: 18px 0 16px 0;
+}
+.slider-list__items-type {
+  @include fonts-style(#7f7f7f, 400);
+}
+.slider-list__items-price {
+  @include fonts-style(#000, 600);
+}
+.slider-list__products-add-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(262px, 10px);
+  z-index: 3;
+}
+// при наведение отображает img heart
+.slider-list__products-add-cart {
+  display: none;
+}
+
+.slider-list__item-inner:hover .slider-list__products-add-cart {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
