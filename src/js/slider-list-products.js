@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const productsFunc = async () => {
-  const API_KEY_PRODUCTS = "http://localhost:3000/products?_limit=3";
+  const API_KEY_PRODUCTS = "http://localhost:3000/products?_limit=4";
   try {
     const response = await axios.get(API_KEY_PRODUCTS);
     const sliderListProducts = document.querySelector(".slider-list__products");
@@ -10,9 +10,9 @@ export const productsFunc = async () => {
       const sliderListItem = document.createElement("li");
       sliderListItem.classList.add("slider-list__item");
       sliderListItem.innerHTML = `
-        <img src="${product.photo}" alt="Cart">
         <div class="slider-list__item-inner">
           <div>
+          <img class="slider-list__items-img" src="${product.photo}" alt="Products" width="200" height="200" />
           <p class="slider-list__items-name">${product.name}</p>
           <p class="slider-list__items-type">${product.type}</p>
           </div>
