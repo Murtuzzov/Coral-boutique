@@ -55,7 +55,7 @@
   transform: translate(262px, 10px);
   z-index: 3;
 }
-// при наведение отображает img heart
+// ПРИ НАВЕДЕНИЕ ОТОБРАЖАЕТСЯ IMG HEART
 .slider-list__products-add-cart {
   display: none;
 }
@@ -65,4 +65,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+// ДЛЯ СЛАЙДЕРА
+.slider-scrolling__icons {
+  position: absolute;
+  width: 1320px;
+  transform: translate(0px, -352px);
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
 }
