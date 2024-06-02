@@ -9,4 +9,9 @@
 @import "./components/slider-products";
 @import "./components/footer";
 @import "./components/sponsors";
-@import "./components/header-section"
+@import "./components/header-section";
+
+main {
+  margin: 0 auto;
+  width: 1920px;
+}
