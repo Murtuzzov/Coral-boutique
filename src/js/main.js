@@ -1,9 +1,14 @@
 import "../scss/styles.scss";
 import * as bootstrap from "bootstrap";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import { productsFunc } from "./slider-list-products";
+import { loadingProducts } from "../js/controller/productController";
+import { ff } from "./page";
 
-productsFunc()
+document.addEventListener("DOMContentLoaded", () => {
+  const brandBannerBtn = document.querySelector(".brand-banner__btn");
+  brandBannerBtn.addEventListener("click", ff);
+});
+
+loadingProducts()
   .then((result) => {
     return result;
   })
