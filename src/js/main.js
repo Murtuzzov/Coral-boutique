@@ -17,51 +17,83 @@ loadingProducts()
   });
 
 ////Modal
-document.getElementById('accountButton').addEventListener('click', function(event) {
-  event.preventDefault();
-  let myModal = new bootstrap.Modal(document.getElementById('loginModal'));
-  myModal.show();
-});
+document.addEventListener('DOMContentLoaded', function() {
+  const accountButton = document.getElementById('accountButton');
+  const loginForm = document.getElementById('loginForm');
+  const registerForm = document.getElementById('registerForm');
+  const showRegisterLink = document.getElementById('showRegister');
+  const showLoginLink = document.getElementById('showLogin');
 
-document.getElementById('showRegister').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.getElementById('loginForm').style.display = 'none';
-  document.getElementById('registerForm').style.display = 'block';
-});
 
-document.getElementById('showLogin').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.getElementById('registerForm').style.display = 'none';
-  document.getElementById('loginForm').style.display = 'block';
-});
-
-document.getElementById('registerForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-  let email = document.getElementById('registerEmail').value;
-  let password = document.getElementById('registerPassword').value;
-  let confirmPassword = document.getElementById('registerConfirmPassword').value;
-
-  if (password !== confirmPassword) {
-    alert('Passwords do not match');
-    return;
+  if (localStorage.getItem('registered') === 'true') {
+      loginForm.style.display = 'block';
+      registerForm.style.display = 'none';
+      showRegisterLink.style.display = 'none';
+      showLoginLink.style.display = 'none';
   }
 
-  alert('Registration successful');
-  document.getElementById('registerForm').reset();
-  document.getElementById('registerForm').style.display = 'none';
-  document.getElementById('loginForm').style.display = 'block';
-});
+  accountButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      let myModal = new bootstrap.Modal(document.getElementById('loginModal'));
+      myModal.show();
 
-document.getElementById('loginForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-  let email = document.getElementById('loginEmail').value;
-  let password = document.getElementById('loginPassword').value;
+      const savedEmail = localStorage.getItem('email');
+      if (savedEmail) {
+          document.getElementById('loginEmail').value = savedEmail;
+      }
+  });
 
-  alert('Login successful');
-  document.getElementById('loginForm').reset();
-  const myModal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
-  myModal.hide();
-});
+  showRegisterLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      loginForm.style.display = 'none';
+      registerForm.style.display = 'block';
+      showRegisterLink.style.display = 'none';
+      showLoginLink.style.display = 'block';
+  });
+
+  showLoginLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      registerForm.style.display = 'none';
+      loginForm.style.display = 'block';
+      showRegisterLink.style.display = 'block';
+      showLoginLink.style.display = 'none';
+  });
+
+  registerForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      let email = document.getElementById('registerEmail').value;
+      let password = document.getElementById('registerPassword').value;
+      let confirmPassword = document.getElementById('registerConfirmPassword').value;
+
+      if (password !== confirmPassword) {
+          alert('Passwords do not match');
+          return;
+      }
+
+      localStorage.setItem('registered', 'true');
+      localStorage.setItem('email', email);
+      alert('Registration successful');
+      registerForm.reset();
+      registerForm.style.display = 'none';
+      loginForm.style.display = 'block';
+      showRegisterLink.style.display = 'none';
+      showLoginLink.style.display = 'none';
+  });
+
+  loginForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      let email = document.getElementById('loginEmail').value;
+      let password = document.getElementById('loginPassword').value;
+
+      alert('Login successful');
+      loginForm.reset();
+      const myModal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
+      myModal.hide();
+  });
+})
+
+
+
 
 
 
