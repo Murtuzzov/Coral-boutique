@@ -1,43 +1,84 @@
 .product-promotions {
   background-color: rgba(30, 40, 50, 0.05);
   margin: 0 auto;
-  width: 1920px;
-  font-family: "Roboto";
+  padding: 100px 15px;
+  font-family: "Open Sans", sans-serif; /* Устанавливаем шрифт Open Sans */
+  max-width: 1920px;
   margin-bottom: 140px;
-  padding-top: 100px;
 }
 
 .follow-gallery {
   margin: 0 auto;
-  width: 1320px;
+  max-width: 1320px;
 }
+
 .follow-gallery__title {
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.newsletter__title {
   font-weight: 500;
 }
 
 .newsletter {
   margin: 0 auto;
-  width: 1320px;
+  max-width: 1320px;
 }
-.newsletter__title {
-  font-weight: 500;
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .newsletter-form__input {
-  width: 642px;
+  width: 100%;
+  max-width: 600px;
   height: 32px;
   font-weight: 600;
-  margin-bottom: 100px;
+  margin-bottom: 20px; /* Уменьшили отступ до 20px */
+  border: 0;
+  border-bottom: 2px solid #000; /* Добавили стиль бордера */
 }
+
 .newsletter-form__input:focus {
   outline: none;
 }
 
 .newsletter-form__btn {
-  width: 92px;
+  width: auto; /* Ширина кнопки автоматически на основе содержимого */
   height: 32px;
 }
 
+@media (max-width: 991px) {
+  .newsletter-form__input {
+    width: 70%;
+    margin-bottom: 0;
+  }
+  .newsletter-form__btn {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .newsletter-form {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .newsletter-form__input {
+    width: 70%;
+    max-width: none;
+  }
+  .newsletter-form__btn {
+    width: auto;
+  }
+}
+
+/* Существующие стили gap и margin */
 @for $i from 6 through 10 {
   .gap-#{$i} {
     gap: #{0.5 * $i}rem;

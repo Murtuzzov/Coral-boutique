@@ -290,7 +290,6 @@
           <button type="button" class="btn btn-success">Next</button>
         </div>
       </section>
-
       <section class="brand-banner">
         <div class="brand-banner__container">
           <div class="brand-banner__img">
@@ -323,10 +322,11 @@
               reopened Giorgio Armani boutique in Los <br />
               Angeles.
             </p>
-            <button class="brand-banner__btn fw-normal">See Collection</button>
+            <button class="brand-banner__btn fw-light">See Collection</button>
           </div>
         </div>
       </section>
+
       <section class="section-slider" width="1320">
         <h2 class="section-title">Best Sellers</h2>
         <div class="section-top__products">
@@ -335,63 +335,77 @@
           <h6 class="section-top__products-hoodies style-fonts">Hoodies</h6>
           <h6 class="section-top__products-jacket style-fonts">Jacket</h6>
         </div>
-        <ul class="slider-list__products"></ul>
-        <div class="slider-scrolling__icons">
-          <img
-            src="./images/slider-products/icon-left-arrow.png"
-            alt="ICON-LEFT"
-          />
-          <img
-            src="./images/slider-products/icon-right-arrow.png"
-            alt="ICON-RIGHT"
-          />
-        </div>
+        <ul class="slider-list__products d-flex"></ul>
       </section>
-
-      <section class="product-promotions">
-        <div class="follow-gallery mb-9">
-          <h2 class="follow-gallery__title text-center mb-8 display-5">
+      <section class="product-promotions container">
+        <div class="follow-gallery mb-5">
+          <h2 class="follow-gallery__title text-center mb-4 display-5">
             Follow products and discounts on Instagram
           </h2>
           <ul
-            class="gallery-list list-unstyled d-flex justify-content-center gap-3"
+            class="gallery-list list-unstyled d-flex justify-content-center flex-wrap gap-3"
           >
             <li class="gallery-list__item">
-              <img src="./images/promo-section-img1.png" alt="" />
+              <img
+                src="./images/promo-section-img1.png"
+                class="img-fluid"
+                alt="Promo 1"
+              />
             </li>
             <li class="gallery-list__item">
-              <img src="./images/promo-section-img2.png" alt="" />
+              <img
+                src="./images/promo-section-img2.png"
+                class="img-fluid"
+                alt="Promo 2"
+              />
             </li>
             <li class="gallery-list__item">
-              <img src="./images/promo-section-img3.png" alt="" />
+              <img
+                src="./images/promo-section-img3.png"
+                class="img-fluid"
+                alt="Promo 3"
+              />
             </li>
             <li class="gallery-list__item">
-              <img src="./images/promo-section-img4.png" alt="" />
+              <img
+                src="./images/promo-section-img4.png"
+                class="img-fluid"
+                alt="Promo 4"
+              />
             </li>
             <li class="gallery-list__item">
-              <img src="./images/promo-section-img5.png" alt="" />
+              <img
+                src="./images/promo-section-img5.png"
+                class="img-fluid"
+                alt="Promo 5"
+              />
             </li>
             <li class="gallery-list__item">
-              <img src="./images/promo-section-img6.png" alt="" />
+              <img
+                src="./images/promo-section-img6.png"
+                class="img-fluid"
+                alt="Promo 6"
+              />
             </li>
           </ul>
         </div>
 
         <div class="newsletter text-center">
-          <h2 class="newsletter__title mb-10 display-5">
+          <h2 class="newsletter__title mb-5 display-5">
             Or Subscribe To The Newsletter
           </h2>
           <form
-            class="newsletter-form d-flex justify-content-center gap-4"
-            action=""
+            class="newsletter-form d-flex flex-column flex-md-row justify-content-center gap-4"
           >
             <input
-              class="newsletter-form__input border-0 border-bottom border-dark border-2"
-              type="text"
+              class="newsletter-form__input form-control"
+              type="email"
               placeholder="Email Address..."
+              required
             />
             <button
-              class="newsletter-form__btn border-0 border-bottom border-dark border-2 text-uppercase"
+              class="newsletter-form__btn btn text-uppercase border-1"
+              type="submit"
             >
               Submit
             </button>
