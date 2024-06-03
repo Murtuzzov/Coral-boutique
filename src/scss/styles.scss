@@ -5,8 +5,13 @@
 @import "./abstractions/mixins";
 @import "./abstractions/placeholders";
 @import "./components/product-promotions";
-@import "./components/header";
 @import "./components/brand-banner";
 @import "./components/slider-products";
 @import "./components/footer";
 @import "./components/sponsors";
+@import "./components/header-section";
+
+main {
+  margin: 0 auto;
+  width: 1920px;
+}

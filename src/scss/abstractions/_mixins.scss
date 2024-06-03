@@ -4,3 +4,9 @@
   color: $color-font;
   font-weight: $font-weight;
 }
+@mixin fonts-style-mob($color-font, $font-weight) {
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-font;
+  font-weight: $font-weight;
+}
