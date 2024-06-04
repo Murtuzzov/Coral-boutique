@@ -5,7 +5,6 @@ import {
 import { displayProductsTshirt } from "../view/productViewTshirt";
 
 export const loadingProductsTshirt = async () => {
-  // document.addEventListener("DOMContentLoaded", async () => {
   const sectionTopProductsTshirtBtn = document.querySelector(
     ".section-top__products-tshirt"
   );
@@ -16,5 +15,4 @@ export const loadingProductsTshirt = async () => {
     const products = await receivingTheProductsTshirt();
     displayProductsTshirt(products);
   }
-  // });
 };

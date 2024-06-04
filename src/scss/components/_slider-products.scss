@@ -107,13 +107,3 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-// ==============
-.container {
-  overflow-x: scroll;
-}
-.container::-webkit-scrollbar {
-  display: none;
-}
-.container .gallery {
-  width: 100%;
-}

@@ -4,10 +4,7 @@ export const displayProducts = (products) => {
   products.forEach((product) => {
     const sliderListItem = document.createElement("li");
     sliderListItem.classList.add("slider-list__item");
-    sliderListItem.className = "slider-cart";
     sliderListItem.innerHTML = `
-  <div class="container">
-   <div class="gallery">
     <div class="slider-list__item-inner">
       <div class="slider-list__products-add-cart">
         <img
@@ -21,8 +18,6 @@ export const displayProducts = (products) => {
         <p class="slider-list__items-price">${product.price}</p>
       </div>
     </div>
-    </div>
-</div>
   `;
     sliderListProducts.appendChild(sliderListItem);
   });

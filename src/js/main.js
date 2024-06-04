@@ -5,24 +5,12 @@ import { loadingProducts } from "../js/controller/productController";
 import { loadingProductsBtn } from "../js/controller/productControllerBtn";
 import { loadingProductsTshirt } from "../js/controller/productControllerTshirt";
 import { loadingProductsJackets } from "../js/controller/productControllerJackets";
-import Swiper from "swiper";
 
 loadingProducts();
 loadingProductsBtn();
 loadingProductsTshirt();
 loadingProductsHoodies();
 loadingProductsJackets();
-
-let horizontScroll = document.querySelector(".container");
-let prevBtn = document.querySelector(".prev");
-let nextBtn = document.querySelector(".next");
-
-nextBtn.addEventListener("click", () => {
-  horizontScroll.scrollLeft += 1320;
-});
-prevBtn.addEventListener("click", () => {
-  horizontScroll.scrollLeft -= 1320;
-});
 
 ////Modal
 document
@@ -84,4 +72,3 @@ document
     );
     myModal.hide();
   });
-// ================
