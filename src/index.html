@@ -290,6 +290,7 @@
           <button type="button" class="btn btn-success">Next</button>
         </div>
       </section>
+
       <section class="brand-banner">
         <div class="brand-banner__container">
           <div class="brand-banner__img">
@@ -297,10 +298,6 @@
               class="brand-banner__img-logo_one"
               width="1920"
               src="./images/brand-banner.photo/zara-bg.png"
-            />
-            <img
-              class="brand-banner__img-logo_two"
-              src="./images/brand-banner.photo/zara-bg-mob.png"
             />
           </div>
           <div class="brand-banner__img-inner">
@@ -330,12 +327,34 @@
       <section class="section-slider" width="1320">
         <h2 class="section-title">Best Sellers</h2>
         <div class="section-top__products">
-          <h6 class="section-top__products-all style-fonts">All Products</h6>
-          <h6 class="section-top__products-tshirt style-fonts">T-Shirt</h6>
-          <h6 class="section-top__products-hoodies style-fonts">Hoodies</h6>
-          <h6 class="section-top__products-jacket style-fonts">Jacket</h6>
+          <button class="section-top__products-all btn-style style-fonts">
+            All Products
+          </button>
+          <button class="section-top__products-tshirt btn-style style-fonts">
+            T-Shirt
+          </button>
+          <button class="section-top__products-hoodies btn-style style-fonts">
+            Hoodies
+          </button>
+          <button class="section-top__products-jacket btn-style style-fonts">
+            Jacket
+          </button>
         </div>
-        <ul class="slider-list__products d-flex"></ul>
+        <ul class="slider-list__products slider d-flex"></ul>
+        <div class="slider-scrolling__icons">
+          <button class="prev">
+            <img
+              src="./images/slider-products/icon-left-arrow.png"
+              alt="ICON"
+            />
+          </button>
+          <button class="next">
+            <img
+              src="./images/slider-products/icon-right-arrow.png"
+              alt="ICON"
+            />
+          </button>
+        </div>
       </section>
       <section class="product-promotions container">
         <div class="follow-gallery mb-5">
@@ -526,8 +545,6 @@
         </p>
       </div>
     </footer>
-    <iframe src="./collection.html"></iframe>
-    <script type="module" src="./js/page.js"></script>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

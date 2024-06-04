@@ -115,7 +115,7 @@
       "price": 39.99,
       "photo": "https://ih1.redbubble.net/image.2394074335.4091/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg"
     },
-        {
+    {
       "id": 24,
       "name": "Graphic Print T-shirt",
       "type": "T-shirts",
@@ -166,5 +166,3 @@
     }
   ]
 }
-
-     

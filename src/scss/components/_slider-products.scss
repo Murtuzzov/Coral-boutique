@@ -1,12 +1,16 @@
-//СТИЛИ ДЛЯ МОБИЛЬНОЙ ВЕРСИИ
 .section-top__products {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
 }
-// СТИЛИ ДЛЯ ДЕСКТОПНЫЙ ВЕРСИИ
 .section-slider {
   max-width: 1320px;
   text-align: center;
   margin: 140px 300px;
+}
+.btn-style {
+  border: none;
 }
 .style-fonts {
   @include fonts-style(#7f7f7f, 600);
@@ -15,10 +19,6 @@
   font-size: 50px;
   font-weight: 500;
   line-height: 58px;
-  @media (max-width: 768px) {
-    font-size: 30px;
-    list-style: 34px;
-  }
 }
 .section-top__products {
   padding: 35px 0;
@@ -40,31 +40,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 768px) {
-    display: block;
-  }
 }
 
 .slider-list__items-name {
   @include fonts-style(#000, 600);
   padding: 18px 0 16px 0;
-  @media (max-width: 768px) {
-    @include fonts-style-mob(#000, 400);
-    margin: 0;
-    padding: 12px 0;
-  }
 }
 .slider-list__items-type {
   @include fonts-style(#7f7f7f, 600);
-  @media (max-width: 768px) {
-    @include fonts-style-mob(#000, 600);
-  }
 }
 .slider-list__items-price {
   @include fonts-style(#000, 600);
-  @media (max-width: 768px) {
-    @include fonts-style-mob(#000, 400);
-  }
 }
 .slider-list__products-add-cart {
   display: flex;
@@ -83,21 +69,10 @@
   display: none;
 }
 
-@media (max-width: 768px) {
-  .slider-list__products-add-cart {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translate(745px, 8px);
-  }
-}
-
-@media (min-width: 769px) {
-  .slider-list__item-inner:hover .slider-list__products-add-cart {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.slider-list__item-inner:hover .slider-list__products-add-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 //ИКОНКИ ДЛЯ СЛАЙДЕРА
@@ -108,38 +83,37 @@
   display: flex;
   justify-content: space-between;
   z-index: 10;
-  @media (max-width: 768px) {
-    display: none;
-  }
 }
-@media (max-width: 768px) {
-  .slider-list__products {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .slider-list__item {
-    width: 100%;
-    display: none;
-  }
-
-  .slider-list__item:first-child {
-    display: block;
-  }
-  .slider-list__item-inner {
-    text-align: center;
-    padding: 20px 0 0 0;
-  }
-  .slider-list__items-img {
-    width: 260px;
-    height: 212px;
-  }
+// СТИЛИ ДЛЯ НОВОЙ СТРАНИЦЕ ДЛЯ ФУТБОЛОК
+.list-product__t-shirt {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-@media (min-width: 768px) {
-  .section-top__products {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 40px;
-  }
+.list-product__item {
+  list-style: none;
+}
+// СТИЛИ ДЛЯ НОВОЙ СТРАНИЦЕ ДЛЯ ХУДИ
+
+.list-product__hoodies {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+// СТИЛИ ДЛЯ НОВОЙ СТРАНИЦЕ ДЛЯ ЖЕКЕТЫ
+.list-product__jacket {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+// ==============
+.container {
+  overflow-x: scroll;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container .gallery {
+  width: 100%;
 }
