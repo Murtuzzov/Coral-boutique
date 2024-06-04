@@ -2,7 +2,7 @@
   background-color: rgba(30, 40, 50, 0.05);
   margin: 0 auto;
   padding: 100px 15px;
-  font-family: "Open Sans", sans-serif; /* Устанавливаем шрифт Open Sans */
+  font-family: "Open Sans", sans-serif;
   max-width: 1920px;
   margin-bottom: 140px;
 }
@@ -40,9 +40,9 @@
   max-width: 600px;
   height: 32px;
   font-weight: 600;
-  margin-bottom: 20px; /* Уменьшили отступ до 20px */
+  margin-bottom: 20px;
   border: 0;
-  border-bottom: 2px solid #000; /* Добавили стиль бордера */
+  border-bottom: 2px solid #000;
 }
 
 .newsletter-form__input:focus {
@@ -50,43 +50,6 @@
 }
 
 .newsletter-form__btn {
-  width: auto; /* Ширина кнопки автоматически на основе содержимого */
+  width: auto;
   height: 32px;
-}
-
-@media (max-width: 991px) {
-  .newsletter-form__input {
-    width: 70%;
-    margin-bottom: 0;
-  }
-  .newsletter-form__btn {
-    width: auto;
-  }
-}
-
-@media (max-width: 767px) {
-  .newsletter-form {
-    gap: 0.5rem;
-    flex-direction: column;
-  }
-  .newsletter-form__input {
-    width: 70%;
-    max-width: none;
-  }
-  .newsletter-form__btn {
-    width: auto;
-  }
-}
-
-/* Существующие стили gap и margin */
-@for $i from 6 through 10 {
-  .gap-#{$i} {
-    gap: #{0.5 * $i}rem;
-  }
-}
-
-@for $i from 6 through 10 {
-  .mb-#{$i} {
-    margin-bottom: #{0.5 * $i}rem;
-  }
 }
