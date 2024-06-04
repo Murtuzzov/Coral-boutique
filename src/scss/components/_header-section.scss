@@ -67,6 +67,8 @@ header {
   .btn-shop {
     padding: 14px 26px 14px 26px;
     background-color: #1e2832;
+    position: relative;
+    z-index: 10;
   }
   
   .shop-link {
@@ -90,6 +92,10 @@ header {
     left: 1430px;
   }
   
+  #registerForm, #showLogin {
+    display: none;
+}
+
   
   @media screen and (max-width: 575px) {
       header {

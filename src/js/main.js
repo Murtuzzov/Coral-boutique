@@ -24,11 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const showRegisterLink = document.getElementById('showRegister');
   const showLoginLink = document.getElementById('showLogin');
 
-
+  // Sayfa yüklendiğinde varsayılan görünürlük ayarları
   if (localStorage.getItem('registered') === 'true') {
       loginForm.style.display = 'block';
       registerForm.style.display = 'none';
       showRegisterLink.style.display = 'none';
+      showLoginLink.style.display = 'block';
+  } else {
+      loginForm.style.display = 'none';
+      registerForm.style.display = 'block';
+      showRegisterLink.style.display = 'block';
       showLoginLink.style.display = 'none';
   }
 
@@ -90,7 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const myModal = bootstrap.Modal.getInstance(document.getElementById('loginModal'));
       myModal.hide();
   });
-})
+});
+
 
 
 
