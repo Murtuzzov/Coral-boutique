@@ -2,6 +2,7 @@ import "../scss/styles.scss";
 import * as bootstrap from "bootstrap";
 import { loadingProducts } from "../js/controller/productController";
 import { ff } from "./page";
+import "./sponsors.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const brandBannerBtn = document.querySelector(".brand-banner__btn");
