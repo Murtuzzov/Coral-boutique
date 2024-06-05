@@ -255,71 +255,40 @@
           <button type="button" class="btn btn-secondary">Prev</button>
           <button type="button" class="btn btn-success">Next</button>
         </div>
-      </section>
-
-      <section class="brand-banner">
-        <div class="brand-banner__container">
-          <div class="brand-banner__img">
-            <img
-              class="brand-banner__img-logo_one"
-              width="1920"
-              src="./images/brand-banner.photo/zara-bg.png"
-            />
-          </div>
-          <div class="brand-banner__img-inner">
-            <img
-              class="brand-banner__img-bg"
-              src="./images/brand-banner.photo/Zara_Logo-1.png"
-              alt="ZARA1"
-            />
-          </div>
-          <div class="brand-banner__content">
-            <img
-              class="brand-banner__img-bg-content"
-              src="./images/brand-banner.photo/Zara_Logo-2.png"
-              alt="ZARA2"
-            />
-            <p class="brand-banner__subtitle text-white fw-light">
-              Lustrous yet understated. The new evening <br />
-              wear collection exclusively offered at the <br />
-              reopened Giorgio Armani boutique in Los <br />
-              Angeles.
-            </p>
-            <button class="brand-banner__btn fw-light">See Collection</button>
-          </div>
+    </section>
+    <section class="brand-banner">
+      <div class="brand-banner__container">
+        <div class="brand-banner__img">
+          <img class="brand-banner__img-logo_one" width="1920" src="./images/brand-banner.photo/zara-bg.png" />
+          <img class="brand-banner__img-logo_two" src="./images/brand-banner.photo/zara-bg-mob.png" />
         </div>
-      </section>
+        <div class="brand-banner__img-inner">
+          <img class="brand-banner__img-bg" src="./images/brand-banner.photo/Zara_Logo-1.png" alt="ZARA1" />
+        </div>
+        <div class="brand-banner__content">
+          <img class="brand-banner__img-bg-content" src="./images/brand-banner.photo/Zara_Logo-2.png" alt="ZARA2" />
+          <p class="brand-banner__subtitle text-white fw-light">
+            Lustrous yet understated. The new evening <br />
+            wear collection exclusively offered at the <br />
+            reopened Giorgio Armani boutique in Los <br />
+            Angeles.
+          </p>
+          <button class="brand-banner__btn fw-light">See Collection</button>
+        </div>
+      </div>
+    </section>
 
       <section class="section-slider" width="1320">
         <h2 class="section-title">Best Sellers</h2>
         <div class="section-top__products">
-          <button class="section-top__products-tshirt btn-style style-fonts">
-            T-Shirt
-          </button>
-          <button class="section-top__products-hoodies btn-style style-fonts">
-            Hoodies
-          </button>
-          <button class="section-top__products-jacket btn-style style-fonts">
-            Jacket
-          </button>
+          <h6 class="section-top__products-all style-fonts">All Products</h6>
+          <h6 class="section-top__products-tshirt style-fonts">T-Shirt</h6>
+          <h6 class="section-top__products-hoodies style-fonts">Hoodies</h6>
+          <h6 class="section-top__products-jacket style-fonts">Jacket</h6>
         </div>
-        <ul class="slider-list__products slider d-flex"></ul>
-        <div class="slider-scrolling__icons">
-          <button class="prev">
-            <img
-              src="./images/slider-products/icon-left-arrow.png"
-              alt="ICON"
-            />
-          </button>
-          <button class="next">
-            <img
-              src="./images/slider-products/icon-right-arrow.png"
-              alt="ICON"
-            />
-          </button>
-        </div>
+        <ul class="slider-list__products d-flex"></ul>
       </section>
-      <section class="product-promotions container">
+      <section class="product-promotions">
         <div class="follow-gallery mb-5">
           <h2 class="follow-gallery__title text-center mb-4 display-5">
             Follow products and discounts on Instagram
@@ -328,123 +297,25 @@
             class="gallery-list list-unstyled d-flex justify-content-center flex-wrap gap-3"
           >
             <li class="gallery-list__item">
-              <img
-                src="./images/promo-section-img1.png"
-                class="img-fluid"
-                alt="Promo 1"
-              />
+              <img src="./images/promo-section-img1.png" alt="Promo 1" />
             </li>
             <li class="gallery-list__item">
-              <img
-                src="./images/promo-section-img2.png"
-                class="img-fluid"
-                alt="Promo 2"
-              />
+              <img src="./images/promo-section-img2.png" alt="Promo 2" />
             </li>
             <li class="gallery-list__item">
-              <img
-                src="./images/promo-section-img3.png"
-                class="img-fluid"
-                alt="Promo 3"
-              />
+              <img src="./images/promo-section-img3.png" alt="Promo 3" />
             </li>
             <li class="gallery-list__item">
-              <img
-                src="./images/promo-section-img4.png"
-                class="img-fluid"
-                alt="Promo 4"
-              />
+              <img src="./images/promo-section-img4.png" alt="Promo 4" />
             </li>
             <li class="gallery-list__item">
-              <img
-                src="./images/promo-section-img5.png"
-                class="img-fluid"
-                alt="Promo 5"
-              />
+              <img src="./images/promo-section-img5.png" alt="Promo 5" />
             </li>
             <li class="gallery-list__item">
-              <img
-                src="./images/promo-section-img6.png"
-                class="img-fluid"
-                alt="Promo 6"
-              />
+              <img src="./images/promo-section-img6.png" alt="Promo 6" />
             </li>
           </ul>
         </div>
-
-        <div class="newsletter text-center">
-          <h2 class="newsletter__title mb-5 display-5">
-            Or Subscribe To The Newsletter
-          </h2>
-          <form
-            class="newsletter-form d-flex flex-column flex-md-row justify-content-center gap-4"
-          >
-            <input
-              class="newsletter-form__input form-control"
-              type="email"
-              placeholder="Email Address..."
-              required
-            />
-            <button
-              class="newsletter-form__btn btn text-uppercase border-1"
-              type="submit"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-wrapper">
-        <div class="footer-box">
-          <h2 class="footer-box__title text-uppercase mb-4">Coral</h2>
-          <p class="footer-box__paragraph mb-4">
-            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing<br />
-            Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et<br />
-            Dolore Magna Aliqua
-          </p>
-          <button class="brand-banner__btn fw-light">See Collection</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-slider" width="1320">
-      <h2 class="section-title">Best Sellers</h2>
-      <div class="section-top__products">
-        <h6 class="section-top__products-all style-fonts">All Products</h6>
-        <h6 class="section-top__products-tshirt style-fonts">T-Shirt</h6>
-        <h6 class="section-top__products-hoodies style-fonts">Hoodies</h6>
-        <h6 class="section-top__products-jacket style-fonts">Jacket</h6>
-      </div>
-      <ul class="slider-list__products d-flex"></ul>
-    </section>
-    <section class="product-promotions">
-      <div class="follow-gallery mb-5">
-        <h2 class="follow-gallery__title text-center mb-4 display-5">
-          Follow products and discounts on Instagram
-        </h2>
-        <ul class="gallery-list list-unstyled d-flex justify-content-center flex-wrap gap-3">
-          <li class="gallery-list__item">
-            <img src="./images/promo-section-img1.png" alt="Promo 1" />
-          </li>
-          <li class="gallery-list__item">
-            <img src="./images/promo-section-img2.png" alt="Promo 2" />
-          </li>
-          <li class="gallery-list__item">
-            <img src="./images/promo-section-img3.png" alt="Promo 3" />
-          </li>
-          <li class="gallery-list__item">
-            <img src="./images/promo-section-img4.png" alt="Promo 4" />
-          </li>
-          <li class="gallery-list__item">
-            <img src="./images/promo-section-img5.png" alt="Promo 5" />
-          </li>
-          <li class="gallery-list__item">
-            <img src="./images/promo-section-img6.png" alt="Promo 6" />
-          </li>
-        </ul>
-      </div>
 
       <div class="newsletter text-center">
         <h2 class="newsletter__title mb-5 display-5">
@@ -561,16 +432,13 @@
         <img class="icons-box__img" src="./images/footer-icons.png" alt="" />
       </div>
 
-      <p class="bottom-scroll text-white">
-        Scroll To Top
-        <i class="bottom-scroll__icon text-white bi bi-arrow-up"></i>
-      </p>
-    </div>
-  </footer>
-  <iframe src="./collection.html"></iframe>
-  <script type="module" src="./js/page.js"></script>
-  <script type="module" src="./js/cart.js"></script>
-  <script type="module" src="./js/main.js"></script>
-</body>
-
+        <p class="bottom-scroll text-white">
+          Scroll To Top
+          <i class="bottom-scroll__icon text-white bi bi-arrow-up"></i>
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="./js/page.js"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
 </html>
