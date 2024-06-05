@@ -436,28 +436,30 @@
           <h2 class="follow-gallery__title text-center mb-4 display-5">
             Follow products and discounts on Instagram
           </h2>
-          <ul
-            class="gallery-list list-unstyled d-flex justify-content-center flex-wrap gap-3"
-          >
-            <li class="gallery-list__item">
-              <img src="./images/promo-section-img1.png" alt="Promo 1" />
-            </li>
-            <li class="gallery-list__item">
-              <img src="./images/promo-section-img2.png" alt="Promo 2" />
-            </li>
-            <li class="gallery-list__item">
-              <img src="./images/promo-section-img3.png" alt="Promo 3" />
-            </li>
-            <li class="gallery-list__item">
-              <img src="./images/promo-section-img4.png" alt="Promo 4" />
-            </li>
-            <li class="gallery-list__item">
-              <img src="./images/promo-section-img5.png" alt="Promo 5" />
-            </li>
-            <li class="gallery-list__item">
-              <img src="./images/promo-section-img6.png" alt="Promo 6" />
-            </li>
-          </ul>
+          <marquee behavior="scroll" direction="left" scrollamount="10">
+            <ul
+              class="gallery-list list-unstyled d-flex justify-content-center flex-wrap gap-3"
+            >
+              <li class="gallery-list__item">
+                <img src="./images/promo-section-img1.png" alt="Promo 1" />
+              </li>
+              <li class="gallery-list__item">
+                <img src="./images/promo-section-img2.png" alt="Promo 2" />
+              </li>
+              <li class="gallery-list__item">
+                <img src="./images/promo-section-img3.png" alt="Promo 3" />
+              </li>
+              <li class="gallery-list__item">
+                <img src="./images/promo-section-img4.png" alt="Promo 4" />
+              </li>
+              <li class="gallery-list__item">
+                <img src="./images/promo-section-img5.png" alt="Promo 5" />
+              </li>
+              <li class="gallery-list__item">
+                <img src="./images/promo-section-img6.png" alt="Promo 6" />
+              </li>
+            </ul>
+          </marquee>
         </div>
 
         <div class="newsletter text-center">
@@ -591,7 +593,9 @@
         </div>
 
         <p class="bottom-scroll text-white">
-          Scroll To Top
+          <a class="text-white text-decoration-none" href="#accountButton"
+            >Scroll To Top</a
+          >
           <i class="bottom-scroll__icon text-white bi bi-arrow-up"></i>
         </p>
       </div>
