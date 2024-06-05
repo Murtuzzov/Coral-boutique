@@ -2,12 +2,12 @@ export const displayProducts = (products) => {
   const sliderListProducts = document.querySelector(".slider-list__products");
   sliderListProducts.innerHTML = "";
   products.forEach((product) => {
-    const sliderListItem = document.createElement("li"); // исправлено 'slider-list__item' на 'li'
-    sliderListItem.classList.add("slider-list__item"); // добавлен класс для элемента
+    const sliderListItem = document.createElement("li");
+    sliderListItem.classList.add("slider-list__item");
     sliderListItem.innerHTML = `
     <div class="slider-list__item-inner">
       <div class="slider-list__products-add-cart">
-        <img 
+        <img
           src="./images/slider-products/icons-heart.png"
           alt="HEART" width="24" height="24"/>
       </div>

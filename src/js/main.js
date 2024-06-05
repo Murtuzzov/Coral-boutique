@@ -1,21 +1,16 @@
 import "../scss/styles.scss";
 import * as bootstrap from "bootstrap";
+import { loadingProductsHoodies } from "../js/controller/productControllerHoodies";
 import { loadingProducts } from "../js/controller/productController";
-import { ff } from "./page";
-import "./sponsors.js";
+import { loadingProductsBtn } from "../js/controller/productControllerBtn";
+import { loadingProductsTshirt } from "../js/controller/productControllerTshirt";
+import { loadingProductsJackets } from "../js/controller/productControllerJackets";
 
-document.addEventListener("DOMContentLoaded", () => {
-  const brandBannerBtn = document.querySelector(".brand-banner__btn");
-  brandBannerBtn.addEventListener("click", ff);
-});
-
-loadingProducts()
-  .then((result) => {
-    return result;
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+loadingProducts();
+loadingProductsBtn();
+loadingProductsTshirt();
+loadingProductsHoodies();
+loadingProductsJackets();
 
 ////Modal
 document.addEventListener("DOMContentLoaded", function () {
