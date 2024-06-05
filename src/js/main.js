@@ -5,6 +5,7 @@ import { loadingProducts } from "../js/controller/productController";
 import { loadingProductsBtn } from "../js/controller/productControllerBtn";
 import { loadingProductsTshirt } from "../js/controller/productControllerTshirt";
 import { loadingProductsJackets } from "../js/controller/productControllerJackets";
+import "./sponsors.js";
 
 loadingProducts();
 loadingProductsBtn();
