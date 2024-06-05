@@ -95,3 +95,37 @@ document.addEventListener("DOMContentLoaded", function () {
     myModal.hide();
   });
 });
+
+{
+  document.addEventListener("DOMContentLoaded", function () {
+    const openModalBtn = document.getElementById("openModalBtn");
+    const closeModalBtn = document.getElementById("closeModalBtn");
+    const modal = document.getElementById("myModal");
+
+    openModalBtn.addEventListener("click", function () {
+      modal.style.display = "block";
+    });
+
+    closeModalBtn.addEventListener("click", function () {
+      modal.style.display = "none";
+    });
+
+    window.addEventListener("click", function (event) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  });
+
+  document
+    .querySelector(".modal__product__section__cart")
+    .addEventListener("mouseover", function () {
+      this.style.cursor = "pointer";
+    });
+
+  document
+    .querySelector(".modal__product__section__cart")
+    .addEventListener("mouseout", function () {
+      this.style.cursor = "auto";
+    });
+}
